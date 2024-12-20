@@ -134,3 +134,4 @@ alias ls='eza -alf --color=always --sort=size | grep -v /'
 alias lt='eza -al --sort=modified'
 
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
