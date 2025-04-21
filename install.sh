@@ -89,15 +89,7 @@ main() {
 
   info "System needs to restart. Restart?"
 
-  select yn in "y" "n"; do
-    case $yn in
-    y)
-      sudo shutdown -r now
-      break
-      ;;
-    n) exit ;;
-    esac
-  done
+  exit
 }
 
 trap cleanup SIGINT SIGTERM ERR EXIT

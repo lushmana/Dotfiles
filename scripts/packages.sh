@@ -1,8 +1,8 @@
-taps=(
-  homebrew/cask
-  homebrew/cask-fonts
-  homebrew/core
-)
+# taps=(
+#   homebrew/cask
+#   homebrew/cask-fonts
+#   homebrew/core
+# )
 
 packages=(
   bat    # https://github.com/sharkdp/bat
@@ -27,6 +27,7 @@ packages=(
   kubernetes-cli
   hyperfine  # https://github.com/sharkdp/hyperfine
   lazydocker # https://github.com/jesseduffield/lazydocker
+  lazygit
   libpq
   mas # https://github.com/mas-cli/mas
   # neovim
@@ -52,7 +53,7 @@ packages=(
 )
 
 install_packages() {
-  info "Configuring taps"
+  # info "Configuring taps"
   # apply_brew_taps "${taps[@]}"
 
   info "Installing packages..."
