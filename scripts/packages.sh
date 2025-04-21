@@ -7,6 +7,7 @@
 packages=(
   bat    # https://github.com/sharkdp/bat
   bottom # https://github.com/ClementTsang/bottom
+  chezmoi
   cmake
   ctags
   curl
@@ -41,7 +42,7 @@ packages=(
   # rustup
   sd # https://github.com/chmln/sd
   shellcheck
-  stow
+  # stow
   # telnet
   xo/xo/usql # https://github.com/xo/usql
   # websocat   # https://github.com/vi/websocat
