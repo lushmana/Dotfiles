@@ -52,4 +52,4 @@ In order to reuse these scripts, here a summary of files you can change/adapt to
 - `scripts/config.sh`: general settings and dotfiles
 
 ## License
-Licensed under MIT, © Brian Mayo 2025: https://protiumx.dev
+Licensed under MIT, © Andrew Lush 2025: https://lushman.dev
